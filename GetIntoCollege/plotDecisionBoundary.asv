@@ -1,0 +1,11 @@
+function plotDecisionBoundary(theta, X, y)
+
+plotData(X(:,2:3), y);
+hold on;
+
+if size(X, 2) <= 3
+    % just a line
+    plot_x =   [min(X(:, 2))-2, max(X(:,2))+2];
+    
+
+end
