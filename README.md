@@ -24,3 +24,8 @@ Project List:
 5. SVM with soft margin
 	- Folder: spamClassifier
 	- choose proper C and lambda
+
+6. Collaborative Filtering
+	- Folder: MovieRecommendationSystem
+	- cost function J with regularization about both x and theta
+	- gradient checking to make sure J is descending
